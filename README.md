@@ -1,6 +1,7 @@
-==Querying
+Querying
+========
 
-[code]
+```
 	kant = Tag.get(1) # returns tag instance with id 1
 	=> #<Tag @id=1 @name="İmmanuil Kant">
 	kant.posts # returns post instances belongs to that tag
@@ -21,6 +22,6 @@
 	8  #returns id of post instance which doesn't have any tags
     Post.get(8).tags.count
  	=> 0 # get sure :) 	
-[/code]
+```
 
 TODO: Update with relevant code and examples
